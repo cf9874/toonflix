@@ -11,8 +11,13 @@ class App extends StatelessWidget {
 
     return MaterialApp(
       home: Scaffold(
-        body: Center(child: (Text('Hello world!'))),
-        appBar: AppBar(title: Text("hello flutter")),
+        appBar: AppBar(
+          title: Text("hello flutter"),
+          backgroundColor: Colors.red,
+        ),
+        body: Center(
+          child: (Text('Hello world', style: TextStyle(fontSize: 50))),
+        ),
       ),
     );
     // throw UnimplementedError();
