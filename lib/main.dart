@@ -21,14 +21,14 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Center(child: Text("사나이 인수")),
+          title: Center(child: Text("Studying Man")),
           backgroundColor: Colors.red,
         ),
         body: Center(
           child: Column(
             children: [
               // SizedBox(width: 50, height: 100 ),
-              (Text('어머 나ss', style: TextStyle(fontSize: 50))),
+              (Text('Carousel Test', style: TextStyle(fontSize: 50))),
               // Image(image: AssetImage('assets/images/insoo.jpg')),
               CarouselSlider(
                 options: CarouselOptions(height: 400.0),
